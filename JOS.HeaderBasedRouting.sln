@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{318B74CF-E025-4736-B8A3-09ABD8EA5368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.HeaderBasedRouting.Api", "src\JOS.HeaderBasedRouting.Api\JOS.HeaderBasedRouting.Api.csproj", "{42F95A6C-CB02-448F-9427-7CA6A8AA5AD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9D91E089-7D72-4A66-8C3C-7812ED36A76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.HeaderBasedRouting.Api.IntegrationTests", "test\JOS.HeaderBasedRouting.Api.IntegrationTests\JOS.HeaderBasedRouting.Api.IntegrationTests.csproj", "{F6DF0BAA-48B4-4DC6-A377-8A6458EBB432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F95A6C-CB02-448F-9427-7CA6A8AA5AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F95A6C-CB02-448F-9427-7CA6A8AA5AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F95A6C-CB02-448F-9427-7CA6A8AA5AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F95A6C-CB02-448F-9427-7CA6A8AA5AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DF0BAA-48B4-4DC6-A377-8A6458EBB432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DF0BAA-48B4-4DC6-A377-8A6458EBB432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DF0BAA-48B4-4DC6-A377-8A6458EBB432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DF0BAA-48B4-4DC6-A377-8A6458EBB432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42F95A6C-CB02-448F-9427-7CA6A8AA5AD2} = {318B74CF-E025-4736-B8A3-09ABD8EA5368}
+		{F6DF0BAA-48B4-4DC6-A377-8A6458EBB432} = {9D91E089-7D72-4A66-8C3C-7812ED36A76D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEEF9675-A42E-4E51-BC31-DB87EE8B9C3F}
+	EndGlobalSection
+EndGlobal
